@@ -19,7 +19,7 @@ app-template:
       annotations:
         cert-manager.io/cluster-issuer: letsencrypt-prod
       hosts:
-        - host: &host home.khuedoan.com
+        - host: &host home.joshporter.me
           paths:
             - path: /
               pathType: Prefix
@@ -61,76 +61,76 @@ app-template:
         services.yaml: |
           - Popular:
             - Matrix:
-                href: https://chat.khuedoan.com
+                href: https://chat.joshporter.me
                 description: Chat client
                 icon: element.svg
             - Jellyfin:
-                href: https://jellyfin.khuedoan.com
+                href: https://jellyfin.joshporter.me
                 description: Media system (movies, music, etc.)
                 icon: jellyfin.svg
             - Jellyseerr:
-                href: https://jellyseerr.khuedoan.com
+                href: https://jellyseerr.joshporter.me
                 description: Request media
                 icon: jellyseerr.svg
             - Paperless:
-                href: https://paperless.khuedoan.com
+                href: https://paperless.joshporter.me
                 description: Document management system
                 icon: paperless.svg
           - Management:
             - Transmission:
-                href: https://transmission.khuedoan.com
+                href: https://transmission.joshporter.me
                 description: Bittorrent client
                 icon: transmission.svg
             - Prowlarr:
-                href: https://prowlarr.khuedoan.com
+                href: https://prowlarr.joshporter.me
                 description: Indexer manager
                 icon: prowlarr.svg
             - Radarr:
-                href: https://radarr.khuedoan.com
+                href: https://radarr.joshporter.me
                 description: Movie manager
                 icon: radarr.svg
             - Sonarr:
-                href: https://sonarr.khuedoan.com
+                href: https://sonarr.joshporter.me
                 description: TV show manager
                 icon: sonarr.svg
             - Kanidm:
-                href: https://auth.khuedoan.com
+                href: https://auth.joshporter.me
                 description: Identity management
-                icon: https://auth.khuedoan.com/pkg/img/logo-square.svg
+                icon: https://auth.joshporter.me/pkg/img/logo-square.svg
           - Development:
             - Gitea:
-                href: https://git.khuedoan.com
+                href: https://git.joshporter.me
                 description: Git forge
                 icon: gitea.svg
             - Woodpecker:
-                href: https://ci.khuedoan.com
+                href: https://ci.joshporter.me
                 description: Continuous integration
                 icon: woodpecker-ci.svg
             - ArgoCD:
-                href: https://argocd.khuedoan.com
+                href: https://argocd.joshporter.me
                 description: Continuous deployment
                 icon: argocd.svg
             - Registry:
-                href: https://registry.khuedoan.com
+                href: https://registry.joshporter.me
                 description: Container registry
                 icon: docker.svg
             - Grafana:
-                href: https://grafana.khuedoan.com
+                href: https://grafana.joshporter.me
                 description: Observability dashboards
                 icon: grafana.svg
           - Utilities:
             - Excalidraw:
-                href: https://draw.khuedoan.com
+                href: https://draw.joshporter.me
                 description: Virtual whiteboard
                 icon: excalidraw.svg
             - Speedtest:
-                href: https://speedtest.khuedoan.com
+                href: https://speedtest.joshporter.me
                 description: Internal network speed test
                 icon: openspeedtest.png
         bookmarks.yaml: |
           - Homelab:
             - Documentation:
-              - href: https://homelab.khuedoan.com
+              - href: https://homelab.joshporter.me
                 icon: google-docs.svg
             - Public homelab repository:
               - href: https://github.com/khuedoan/homelab
